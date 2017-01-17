@@ -1,0 +1,28 @@
+a)Difference between Internal Storage, External Storage
+
+Internal Storage- storage which is not accesses by the user except via insta apps.
+                  Files saved to internal storage are private to a an application and cannot be accessed by other applications.
+				  When the users uninstalls an application the app files will be removed.
+				  
+External Storage-The external storage is more like a public storage, so for now, it's the SD-CARD.
+
+b) For how long the data resides in the cache?
+
+The cache is the temporary storage area of a device or an App in case of android, which retains certain kinds of data. 
+We might consider a Web page which loads faster the second time we visit the site this is because of the cache which android uses
+
+The life of an app data inside cache depends of the life of an app,if the user uninstalls the app the cache data will be lost
+or if the user want to speed up the app clearing cache will be a good option.
+A cache is basically a storage area where data or frequently used processes are saved for quicker access in the future.
+
+c) What are the critical Permissions and Normal Permissions? What are the examples of each?
+
+Normal Permissions-These are the permissions which can be accessed from any app like camera,recorder,microphone etc
+
+Examples-Camera: Allows full access of your camera. This group only has one permission, so it’s all-or-nothing.
+                   Microphone: Another group with only one permission; this allows for full access to your microphone in order to record audio.
+					Storage: Apps can read your files, save files, or both. 
+					A common reason for reading your storage is picking a file to share with a friend, while an app might need to write to storage so it can save a picture you edited.
+					
+Critical permissions - These are the permissions which no apps can access like Formatting memory.
+                       An app cannot have access to the users contact lists,Emails etc
